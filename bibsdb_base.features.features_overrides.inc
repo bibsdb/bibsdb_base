@@ -12,6 +12,7 @@ function bibsdb_base_features_override_default_overrides() {
   $overrides = array();
 
   // Exported overrides for: variable
+  $overrides["variable.autologout_redirect_url.value"] = 'bibsdb_frontpage';
   $overrides["variable.ding_varnish_role.value"] = 5;
 
  return $overrides;
